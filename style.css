@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background-color: #021436;
+}
+.navbar-toggler{
+    color: white;
+}
+.nav-item{
+    padding: 15px;
+}
+.nav-item :hover{
+    color: grey;
+    border-left: 1px solid black;
+}
+.nav-link{
+    color: white;
+    font-weight: 400;
+}
+.btn{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .4s;
+}
+.btn:hover{
+    background-color: white;
+    transform: scale(1.05);
+}
+.btxx{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .4s;
+    width: 90px;
+    height: 35px;
+    text-decoration: none;
+    padding: 3px 15px;
+}
+.btxx:hover{
+    background-color: transparent;
+    color: white;
+    transform: scale(1.05);
+}
+header{
+    background-image: url(images/homeland\ bg\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 70px;
+    width: 600px;
+}
+.text h2{
+    font-size: 55px;
+    font-weight: 640;
+    color: #021436;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text p{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lorex{
+    margin-top: 10px;
+    background-color: #021436;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .4s;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    padding: 10px 22px
+}
+.lorex:hover{
+    transform: scale(1.05);
+}
+.write{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.write h3{
+    font-size: 40px;  
+    font-weight: 700;
+    color: black;
+}
+.write span{
+    padding: 7px;
+    font-size: 16px;
+    line-height: 17px;
+    color: black;
+}
+.apartment{
+    width: 600px;
+    background-color: #021436;
+    height: 100px;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-left: 0px;
+}
+.apartment input{
+    width: 170px;
+    height: 40px;
+}
+.sarah{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.sarah form{
+    justify-content: space-between;
+    gap: 15px;
+}
+.dropdown .colorbtn{
+    color: black;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.seyi{
+    background-color: skyblue;
+    color: black;
+    transition: .4s;
+    border-radius: 7px;
+    border: transparent;
+    width: 150px;
+    height: 40px;
+}
+.seyi:hover{
+    transform: scale(1.05);
+}
+main{
+    background-color: skyblue;
+    height: 400px;
+    position: relative;
+    display: flex;
+}
+.yoks{
+    align-items: center;
+    display: flex;
+    margin: 100px 150px;
+    padding: 100px 0px;
+    gap: 50px;
+}
+.yoks img{
+    height: 300px;
+    width: 500px;
+    border-radius: 50px;
+}
+.big h3{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+.big p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.lore{
+    background-color: #021436;
+    color: white;
+    transition: .4s;
+    border-radius: 7px;
+    border: transparent;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    padding: 7px 19px;
+}
+.lore:hover{
+    transform: scale(1.05);
+    color: white;
+}
+#part{
+    background-color: white;
+    position: relative;
+    height: 400px;
+    display: flex;
+}
+.bigie{
+    align-items: center;
+    display: flex;
+    margin: 100px 150px;
+    padding: 100px 0px;
+    gap: 50px;
+}
+.bigie img{
+    height: 300px;
+    width: 500px;
+    border-radius: 50px;
+}
+.bigg h3{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+.bigg p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+.lores{
+    border-radius: 7px;
+    transition: .4s;
+    background-color: #021436;
+    color: white;
+    border: transparent;
+    width: 110px;
+}
+.lores:hover{
+    transform: scale(1.05);
+}
+section{
+    height: 400px;
+    background-color: skyblue;
+    position: relative;
+    display: flex;
+}
+.maine{
+    align-items: center;
+    display: flex;
+    margin: 100px 150px;
+    padding: 100px 0px;
+    gap: 50px;
+}
+.maine img{
+    height: 300px;
+    width: 670px;
+    border-radius: 50px;
+}
+.lorext{
+    margin-top: 10px;
+    background-color: #021436;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .4s;
+    width: 180px;
+    height: 50px;
+}
+.lorext:hover{
+    transform: scale(1.05);
+}
+#partx{
+    height: 400px;
+    background-color: white;
+    position: relative;
+    display: flex;
+}
+.mainx{
+    align-items: center;
+    display: flex;
+    margin: 100px 150px;
+    padding: 100px 0px;
+    gap: 50px;
+}
+.mainx img{
+    height: 300px;
+    width: 600px;
+    border-radius: 50px;
+}
+footer{
+    background-color: #021436;
+    height: 300px;
+    color: white;
+    position: relative;
+}
+.shemz{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 60px;
+}
+.third{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.fourth{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 60px;
+}
+.fifth{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 60px;
+}
